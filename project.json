@@ -1,0 +1,20 @@
+{
+  "id": 196,
+  "title": "Crop Storage Guardian Nutrient Dosing",
+  "repository_slug": "crop-storage-guardian-nutrient-dosing",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 28,
+  "connectivity": "Local only",
+  "components": [
+    "water pump",
+    "solar charger"
+  ],
+  "scope": "Build a smart agriculture prototype that uses water pump, solar charger to dose nutrients using measured conditions. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Nutrient Dosing demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/crop-storage-guardian-nutrient-dosing/crop-storage-guardian-nutrient-dosing.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
